@@ -1,0 +1,1 @@
+/usr/bin/c++ "CMakeFiles/BMS-Utility-Test.dir/source/main.cpp.o" "CMakeFiles/BMS-Utility-Test.dir/source/BMSUtilityGuy.cpp.o" "CMakeFiles/BMS-Utility-Test.dir/source/USBJoe.cpp.o" -o BMS-Utility-Test  -lserial 

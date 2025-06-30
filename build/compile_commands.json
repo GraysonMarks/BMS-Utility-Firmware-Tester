@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/pie/Documents/Repos/BMS-Utility-Test/build",
+  "command": "/usr/bin/g++ -g -std=gnu++17 -o CMakeFiles/BMS-Utility-Test.dir/source/main.cpp.o -c /home/pie/Documents/Repos/BMS-Utility-Test/source/main.cpp",
+  "file": "/home/pie/Documents/Repos/BMS-Utility-Test/source/main.cpp",
+  "output": "CMakeFiles/BMS-Utility-Test.dir/source/main.cpp.o"
+},
+{
+  "directory": "/home/pie/Documents/Repos/BMS-Utility-Test/build",
+  "command": "/usr/bin/g++ -g -std=gnu++17 -o CMakeFiles/BMS-Utility-Test.dir/source/BMSUtilityGuy.cpp.o -c /home/pie/Documents/Repos/BMS-Utility-Test/source/BMSUtilityGuy.cpp",
+  "file": "/home/pie/Documents/Repos/BMS-Utility-Test/source/BMSUtilityGuy.cpp",
+  "output": "CMakeFiles/BMS-Utility-Test.dir/source/BMSUtilityGuy.cpp.o"
+},
+{
+  "directory": "/home/pie/Documents/Repos/BMS-Utility-Test/build",
+  "command": "/usr/bin/g++ -g -std=gnu++17 -o CMakeFiles/BMS-Utility-Test.dir/source/USBJoe.cpp.o -c /home/pie/Documents/Repos/BMS-Utility-Test/source/USBJoe.cpp",
+  "file": "/home/pie/Documents/Repos/BMS-Utility-Test/source/USBJoe.cpp",
+  "output": "CMakeFiles/BMS-Utility-Test.dir/source/USBJoe.cpp.o"
+}
+]
