@@ -55,19 +55,19 @@ void USBJoe::transmit(const std::vector<uint8_t>& data) {
 }
 
 std::vector<uint8_t> USBJoe::receive() {
-    std::vector<uint8_t> data_v;
-    std::string data_s;
+    std::vector<uint8_t> data;
+    std::string payload;
     
     try {
-        Serial.Read(data_s, 8, 1000);
+        Serial.Read(payload, 8, 1000);
     } catch (const LibSerial::ReadTimeout&) {
         std::cerr << "Timeout: no data received in time." << std::endl;
         return {};
     }
     
-    for (size_t i = 0; i < data_s.size(); i++) {
-        data_v.push_back(static_cast<uint8_t>(data_s[i]));
+    for (size_t i = 0; i < payload.size(); i++) {
+        data.push_back(static_cast<uint8_t>(payload[i]));
     }
     
-    return data_v;
+    return data;
 }

@@ -14,7 +14,6 @@ int main(int argc, char** argv) {
 
         for (uint16_t count = 0; count < 1; count++) {
             BMSUtilityGuy::getBMSUtilityGuy().talk(tx);
-            std::this_thread::sleep_for(std::chrono::milliseconds(100));
             
             rx = BMSUtilityGuy::getBMSUtilityGuy().listen();
             
